@@ -19,3 +19,7 @@ var reverseList = function() {
 
 const list = [1, 2, 3, 4, 5];
 console.log(reverseList());
+
+/*OR:
+for (i = arr.length; i >= 0; i--) {}
+*/

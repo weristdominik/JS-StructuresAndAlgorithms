@@ -16,6 +16,8 @@ https://leetcode.com/
 | 27. Remove Element  | RemoveElement.js  |
 | 28. Find the Index of the First Occurrence in a String  | FirstOccurrenceInAString.js  |
 | 35. Search Insert Position  | SearchInsertPosition.js  |
+| 58. Length of Last Word  | LengthOfLastWord.js  |
+| 66. Plus One  | PlusOne.js  |
 
 
 #### Extra:
