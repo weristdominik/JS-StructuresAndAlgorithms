@@ -18,6 +18,9 @@ https://leetcode.com/
 | 35. Search Insert Position  | SearchInsertPosition.js  |
 | 58. Length of Last Word  | LengthOfLastWord.js  |
 | 66. Plus One  | PlusOne.js  |
+| 67. Plus One  | AddBinary.js  |
+| 67. Sqit(x) (square root)  | Sqrt.js  |
+| 70. Climbin Stairs  | ClimbinStaris.js  |
 
 
 #### Extra:
