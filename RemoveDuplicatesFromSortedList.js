@@ -1,10 +1,3 @@
-class ListNode {
-    constructor(val, next = null) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -17,11 +10,17 @@ class ListNode {
  * @return {ListNode}
  */
 var deleteDuplicates = function (head) {
-    const dummy = head;
-    while (dummy) {
-        console.log(dummy.val);
+    var tmp = head;
+
+    while (tmp && tmp.next) {
+        if (tmp.val == tmp.next.val) {
+            tmp.next = tmp.next.next;
+        } else {
+            tmp = tmp.next;
+        }
     }
 
+    return head;
 };
 
 const head = [1, 1, 2];

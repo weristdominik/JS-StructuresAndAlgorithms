@@ -21,7 +21,12 @@ https://leetcode.com/
 | 67. Plus One  | AddBinary.js  |
 | 67. Sqit(x) (square root)  | Sqrt.js  |
 | 70. Climbin Stairs  | ClimbinStaris.js  |
+| 83. Remove Duplicates From Sorted List  | RemoveDuplicatesFromSortedList.js  |
+| 88. Merge A Sorted Array  | MergeSortedArray.js  |
+| 94. Binary Tree Inorder Traversal  | BinaryTreeInorderTraversal.js  |
+| 100. Same Tree  | SameTree.js  |
 
 
-#### Extra:
-Simple Solution for Palindrom.js or Leedcode Palindrom Question: ReverseList.js
+
+#### Binary Tree`s (How To):
+
