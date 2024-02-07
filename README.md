@@ -27,6 +27,44 @@ https://leetcode.com/
 | 100. Same Tree  | SameTree.js  |
 
 
+---
+# Binary Tree`s (How To):
+<img width="779" alt="Screenshot 2024-02-07 at 21 49 07" src="https://github.com/weristdominik/JS-StructuresAndAlgorithms/assets/47948163/8193d9ec-8bf9-444c-a493-df25fbdd4e9e">
 
-#### Binary Tree`s (How To):
+
+
+### Code of inorder Traversel of Binary Tree above:
+```
+class Node {
+    constructor(val) {
+        this.key = val;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+// Root of Binary Tree
+var root = null;
+
+function printInorder(node) {
+    if (node == null)
+        return;
+
+    // First recur on left child */
+    printInorder(node.left);
+    // Then print the data of node
+    console.log(node.key + " ");
+    // Now recur on right child
+    printInorder(node.right);
+}
+
+root = new Node(1);
+root.left = new Node(2);
+root.right = new Node(3);
+root.left.left = new Node(4);
+root.left.right = new Node(5);
+
+console.log("Inorder traversal of binary tree is ");
+console.log(printInorder(root));
+```
 
