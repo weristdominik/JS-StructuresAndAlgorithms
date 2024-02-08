@@ -25,6 +25,7 @@ https://leetcode.com/
 | 88. Merge A Sorted Array  | MergeSortedArray.js  |
 | 94. Binary Tree Inorder Traversal  | BinaryTreeInorderTraversal.js  |
 | 100. Same Tree  | SameTree.js  |
+| 101. Symmetric Tree  | SymmetricTree.js  |
 
 
 ---
@@ -106,3 +107,14 @@ console.log(printPostorder(root)); //Printing PostOrder Traversal
 
 ```
 
+
+
+## ./BinaryTree
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 94. Binary Tree Inorder Traversal  | BinaryTreeInorderTraversal.js  |
+| 100. Same Tree  | SameTree.js  |
+| 101. Symmetric Tree  | SymmetricTree.js  |
+| 104. Maximum Depth of Binary Tree  | MaxDepthOfBinaryTree.js  |
+| 108. Convert Sorted Array to Binary Search Tree  | ConvertSortedArrayToBinarySearchTree.js  |
+| 110. Balanced Binary Tree | BalancedBinaryTree.js |
