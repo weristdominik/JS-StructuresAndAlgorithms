@@ -43,28 +43,66 @@ class Node {
     }
 }
 
+ 
+
 // Root of Binary Tree
 var root = null;
 
 function printInorder(node) {
-    if (node == null)
-        return;
 
-    // First recur on left child */
+    if (node == null) {
+        return;
+    }
+
     printInorder(node.left);
-    // Then print the data of node
     console.log(node.key + " ");
-    // Now recur on right child
     printInorder(node.right);
+
 }
+
+ 
+
+function printPreorder(node) {
+    if(node == null) {
+        return;
+    }
+
+    console.log(node.key + " ");
+    printPreorder(node.left);
+    printPreorder(node.right);
+}
+
+ 
+
+function printPostorder(node) {
+
+    if(node == null) {
+        return;
+    }
+
+    printPostorder(node.left);
+    printPostorder(node.right);
+    console.log(node.key + " ");
+}
+
+ 
 
 root = new Node(1);
 root.left = new Node(2);
 root.right = new Node(3);
 root.left.left = new Node(4);
 root.left.right = new Node(5);
+root.right.left = new Node(6);
+root.right.right = new Node(7);
+
+ 
 
 console.log("Inorder traversal of binary tree is ");
-console.log(printInorder(root));
+console.log(printInorder(root)); //Printing Inorder Traversal
+console.log("------------------------------------");
+console.log(printPreorder(root)); //Printing PreOrder Traversal
+console.log("------------------------------------");
+console.log(printPostorder(root)); //Printing PostOrder Traversal
+
 ```
 
