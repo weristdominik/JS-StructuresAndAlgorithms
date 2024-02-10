@@ -32,7 +32,7 @@ https://leetcode.com/
 
 
 
-### Code of inorder Traversel of Binary Tree above:
+### Code of ALL Traversel(s) of Binary Tree above:
 ```
 class Node {
     constructor(val) {
@@ -151,3 +151,9 @@ console.log(invertTree(root));
 | 226. Invert Binary Tree | InvertBinaryTree.js |
 | 257. Binary Tree Paths | BinaryTreePaths.js |
 | 404. Sum of Left Leaves | SumOfLeftLeaves.js |
+
+
+## BinaryTree wording:
+**diameter** of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the _root_. 
+
+=> Diameter = Left subtree height + Right subtree height + 1
