@@ -23,9 +23,7 @@ https://leetcode.com/
 | 70. Climbin Stairs  | ClimbinStaris.js  |
 | 83. Remove Duplicates From Sorted List  | RemoveDuplicatesFromSortedList.js  |
 | 88. Merge A Sorted Array  | MergeSortedArray.js  |
-| 94. Binary Tree Inorder Traversal  | BinaryTreeInorderTraversal.js  |
-| 100. Same Tree  | SameTree.js  |
-| 101. Symmetric Tree  | SymmetricTree.js  |
+
 
 
 ---
@@ -108,6 +106,33 @@ console.log(printPostorder(root)); //Printing PostOrder Traversal
 ```
 
 
+### Invert A Binary Tree:
+```
+function TreeNode(val, left, right) {
+    this.val = (val===undefined ? 0 : val)
+    this.left = (left===undefined ? null : left)
+    this.right = (right===undefined ? null : right)
+}
+
+var invertTree = function(root) {
+    if(!root) return root;
+
+    let tmp = root.left;
+    root.left = root.right;
+    root.right = tmp
+
+    invertTree(root.left);
+    invertTree(root.right);
+    
+    return root;
+};
+
+let root = null;
+root = new TreeNode(2);
+root.left = new TreeNode(1);
+root.right = new TreeNode(3);
+console.log(invertTree(root));
+```
 
 ## ./BinaryTree
 | Leetcode Name | Filename      |
@@ -118,3 +143,11 @@ console.log(printPostorder(root)); //Printing PostOrder Traversal
 | 104. Maximum Depth of Binary Tree  | MaxDepthOfBinaryTree.js  |
 | 108. Convert Sorted Array to Binary Search Tree  | ConvertSortedArrayToBinarySearchTree.js  |
 | 110. Balanced Binary Tree | BalancedBinaryTree.js |
+| 110. BMinimum Depth of Binary Tree | MinimumDepthOfBinaryTree.js |
+| 112. Path Sum | PathSum.js |
+| 144. Binary Tree Preorder Traversal | BinaryTreePreorderTraversal.js |
+| 145. Binary Tree Postorder Traversal | BinaryTreePostorderTraversal.js |
+| 222. Count Complete Tree Nodes | CountcompleteNodes.js |
+| 226. Invert Binary Tree | InvertBinaryTree.js |
+| 257. Binary Tree Paths | BinaryTreePaths.js |
+| 404. Sum of Left Leaves | SumOfLeftLeaves.js |
