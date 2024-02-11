@@ -23,7 +23,8 @@ https://leetcode.com/
 | 70. Climbin Stairs  | ClimbinStaris.js  |
 | 83. Remove Duplicates From Sorted List  | RemoveDuplicatesFromSortedList.js  |
 | 88. Merge A Sorted Array  | MergeSortedArray.js  |
-
+| 121. Best Time to Buy and Sell Stock  | BestTimeToBuyAndSellStock.js  |
+| 125. Valid Palindrome  | ValidPalindrome.js  |
 
 
 ---
@@ -134,6 +135,72 @@ root.right = new TreeNode(3);
 console.log(invertTree(root));
 ```
 
+### Get Height Binary Tree:
+```
+function TreeNode(val, left, right) {
+    this.val = (val === undefined ? 0 : val)
+    this.left = (left === undefined ? null : left)
+    this.right = (right === undefined ? null : right)
+}
+
+var diameterOfBinaryTree = function (root) {
+    if (!root.left && !root.right) return 0;
+    let lheight = height(root.left);
+    let rheight = height(root.right);
+
+    function height(node) {
+        if(!node) return 0;
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
+
+    return [lheight, rheight]; //WITHOUT the Root!
+};
+
+let root = null;
+root = new TreeNode(1);
+root.left = new TreeNode(2);
+root.left.left = new TreeNode(4);
+root.left.right = new TreeNode(5);
+root.right = new TreeNode(3);
+console.log(diameterOfBinaryTree(root));
+```
+
+
+### Get Diameter of Binary Tree:
+```
+function TreeNode(val, left, right) {
+    this.val = (val === undefined ? 0 : val)
+    this.left = (left === undefined ? null : left)
+    this.right = (right === undefined ? null : right)
+}
+
+var diameterOfBinaryTree = function (root) {
+    if(!root) return 0;
+    let max = 0;
+
+    var dfs = function(node) {
+        if(!node) return 0;
+    
+        let left = dfs(node.left);
+        let right = dfs(node.right);
+    
+        max = Math.max(left+right, max);
+        return Math.max(left, right) +1;
+    };
+
+    dfs(root);
+    return max;
+};
+
+let root = null;
+root = new TreeNode(1);
+root.left = new TreeNode(2);
+root.left.left = new TreeNode(4);
+root.left.right = new TreeNode(5);
+root.right = new TreeNode(3);
+console.log(diameterOfBinaryTree(root));
+```
+
 ## ./BinaryTree
 | Leetcode Name | Filename      |
 | ------------- | ------------- |
@@ -153,7 +220,57 @@ console.log(invertTree(root));
 | 404. Sum of Left Leaves | SumOfLeftLeaves.js |
 
 
-## BinaryTree wording:
-**diameter** of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the _root_. 
+---
+# Pascal`s Triangle:
+```
+/**
+ * @param {number} numRows
+ * @return {number[][]}
+ * 
+ * 
+ * (x+y)^n
+ */
+var generate = function(numRows) {
+    let triangle = [[1]];
 
-=> Diameter = Left subtree height + Right subtree height + 1
+    if(numRows == 1) return triangle;
+    
+    for (i = 1; i < numRows; i++) {
+        let prevRow = triangle[i - 1];
+        let row = [];
+        
+        row.push(1);
+        for (j = 1; j < prevRow.length; j++) {
+            row[j] = prevRow[j] + prevRow[j - 1];
+        }
+        row.push(1);
+
+        triangle.push(row);
+    }
+
+    return triangle;
+};
+
+const numRows = 5;
+console.log(generate(numRows));
+```
+
+## ./PascalsTriangle
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 118. Pascal`s Triangle  | PascalsTriangle.js  |
+| 119. Pascal`s Triangle II | PascalsTriangle_II.js  |
+
+---
+### Regex:
+| Regex | Explanation      |
+| ------------- | ------------- |
+| /^[a-z0-9]$/  | a - z AND 0 - 9  |
+| /^[a-z]$/  | a - z |
+| /^[a-zA-Z0-9]$/  | a - z AND A - Z AND 0 -9 |
+
+```
+function isLowerCaseOrDigit(char) {
+  return /^[a-z0-9]$/.test(char);
+}
+```

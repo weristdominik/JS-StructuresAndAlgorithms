@@ -17,21 +17,21 @@ function TreeNode(val, left, right) {
 }
 
 var diameterOfBinaryTree = function (root) {
-    if (!root.left && !root.right) return 0;
+    if(!root) return 0;
+    let max = 0;
 
-    return getRightTree(root);
+    var dfs = function(node) {
+        if(!node) return 0;
+    
+        let left = dfs(node.left);
+        let right = dfs(node.right);
+    
+        max = Math.max(left+right, max);
+        return Math.max(left, right) +1;
+    };
 
-    function getLeftTree(node) {
-        if (!node) return 0;
-        const left = getLeftTree(node.left);
-        return left;
-    }
-
-    function getRightTree(node) {
-        if (!node) return 0;
-        const right = getRightTree(node.right);
-        return right;
-    }
+    dfs(root);
+    return max;
 };
 
 let root = null;
