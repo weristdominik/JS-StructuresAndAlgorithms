@@ -222,6 +222,8 @@ console.log(diameterOfBinaryTree(root));
 
 ---
 # Pascal`s Triangle:
+![image](https://github.com/weristdominik/JS-StructuresAndAlgorithms/assets/47948163/a5541cce-0657-46f7-b091-b52e25bb06e7)
+
 ```
 /**
  * @param {number} numRows
