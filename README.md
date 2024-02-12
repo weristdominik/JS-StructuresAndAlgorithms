@@ -266,7 +266,8 @@ console.log(generate(numRows));
 
 ---
 # Linked Lists:
-IMAGE
+![image](https://github.com/weristdominik/JS-StructuresAndAlgorithms/assets/47948163/439f3687-352b-4157-9e48-6633ea09116d)
+
 
 ### Reverse Linked List (./LinkedList/ReverseLinkedList.js):
 ```
