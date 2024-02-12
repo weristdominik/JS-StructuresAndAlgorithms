@@ -25,6 +25,7 @@ https://leetcode.com/
 | 88. Merge A Sorted Array  | MergeSortedArray.js  |
 | 121. Best Time to Buy and Sell Stock  | BestTimeToBuyAndSellStock.js  |
 | 125. Valid Palindrome  | ValidPalindrome.js  |
+| 126. Single Number  | SingleNumber.js  |
 
 
 ---
@@ -264,7 +265,49 @@ console.log(generate(numRows));
 | 119. Pascal`s Triangle II | PascalsTriangle_II.js  |
 
 ---
-### Regex:
+# Linked Lists:
+IMAGE
+
+### Reverse Linked List (./LinkedList/ReverseLinkedList.js):
+```
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
+var reverseLinkedList = function (head) {
+    let prev = null;
+    let current = head;
+    let next = null;
+
+    while (current != null) {
+        next = current.next;
+        current.next = prev;
+        prev = current;
+        current = next;
+    }
+    head = prev;
+    return head;
+}
+
+const headA = new ListNode(1);
+headA.next = new ListNode(2);
+headA.next.next = new ListNode(3);
+headA.next.next.next = new ListNode(4);
+headA.next.next.next.next = new ListNode(5);
+console.log(reverseLinkedList(headA));
+```
+
+## ./LinkedList
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 141. Linked List Cycle | LinkedListCycle.js  |
+
+
+
+
+---
+#### Regex:
 | Regex | Explanation      |
 | ------------- | ------------- |
 | /^[a-z0-9]$/  | a - z AND 0 - 9  |
@@ -276,3 +319,9 @@ function isLowerCaseOrDigit(char) {
   return /^[a-z0-9]$/.test(char);
 }
 ```
+
+
+#### I don`t know how this Works:
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 160. Intersection of Two Linked Lists  | ./LinkedList/IntersectionOfTwoLinkedLists.js  |
