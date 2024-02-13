@@ -308,7 +308,8 @@ console.log(reverseLinkedList(headA));
 ---
 
 # HashMap:
-#IMAGE
+![image](https://github.com/weristdominik/JS-StructuresAndAlgorithms/assets/47948163/d384198b-1d9e-414d-afc1-3230391b82d2)
+
 
 ### Display HashMap
 ```
