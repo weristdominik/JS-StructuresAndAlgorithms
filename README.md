@@ -356,6 +356,17 @@ const showHashMap = (nums) => {
 | ------------- | ------------- |
 | 169. Majority Element | MajorityElement.js  |
 
+---
+
+# Bitwise Operators
+The opposite of 'logical Operators'. Bitwise Operators are used to compare Bits (0/ 1)!
+IMAGE
+
+## ./BitwiseOperators
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 190. Reverse Bits | ReverseBits.js  |
+| 191. Number Of 1 Bits | NumberOf1Bits.js  |
 
 ---
 #### Regex:
