@@ -360,7 +360,9 @@ const showHashMap = (nums) => {
 
 # Bitwise Operators
 The opposite of 'logical Operators'. Bitwise Operators are used to compare Bits (0/ 1)!
-IMAGE
+
+![image](https://github.com/weristdominik/JS-StructuresAndAlgorithms/assets/47948163/a5f56afc-f041-453e-b8be-ffd006ab92a0)
+
 
 ## ./BitwiseOperators
 | Leetcode Name | Filename      |
