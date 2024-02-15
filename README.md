@@ -269,6 +269,51 @@ console.log(generate(numRows));
 # Linked Lists:
 ![image](https://github.com/weristdominik/JS-StructuresAndAlgorithms/assets/47948163/439f3687-352b-4157-9e48-6633ea09116d)
 
+### Interate through Linked List:
+```
+while (list && list.next) {
+    console.log(list.val);
+    list = list.next;
+}
+```
+
+### Delete from Linked List (./LinkedList/RemoveLinkedList.js)
+```
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
+
+var removeElements = function (head, val) {
+
+    if (!head) {
+        return head;
+    }
+
+    let list = head;
+
+    while (list && list.next) {
+        if (list.next.val == val) {
+            list.next = list.next.next;
+        } else {
+            list = list.next;
+        }
+    }
+
+    return head.val === val ? head.next : head;
+};
+
+const headA = new ListNode(6);
+headA.next = new ListNode(2);
+headA.next.next = new ListNode(6);
+headA.next.next.next = new ListNode(3);
+headA.next.next.next.next = new ListNode(4);
+headA.next.next.next.next.next = new ListNode(5);
+headA.next.next.next.next.next.next = new ListNode(6);
+const val = 6;
+console.log(removeElements(headA, val));
+```
 
 ### Reverse Linked List (./LinkedList/ReverseLinkedList.js):
 ```
