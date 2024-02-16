@@ -27,6 +27,8 @@ https://leetcode.com/
 | 125. Valid Palindrome  | ValidPalindrome.js  |
 | 126. Single Number  | SingleNumber.js  |
 | 168. Excel Sheet Column Title  | ExcelSheetColumnTitle.js  |
+| 205. Isomorphic Strings | IsomorphicStrings.js  |
+
 
 
 ---
@@ -400,6 +402,9 @@ const showHashMap = (nums) => {
 | Leetcode Name | Filename      |
 | ------------- | ------------- |
 | 169. Majority Element | MajorityElement.js  |
+| 206. Reverse Linked List | ReverseLinkedList.js |
+| 217. Contains Duplicate | ContainsDuplicate.js |
+
 
 ---
 
