@@ -351,6 +351,8 @@ console.log(reverseLinkedList(headA));
 | Leetcode Name | Filename      |
 | ------------- | ------------- |
 | 141. Linked List Cycle | LinkedListCycle.js  |
+| 206. Reverse Linked List | ReverseLinkedList.js |
+
 
 ---
 
@@ -402,7 +404,6 @@ const showHashMap = (nums) => {
 | Leetcode Name | Filename      |
 | ------------- | ------------- |
 | 169. Majority Element | MajorityElement.js  |
-| 206. Reverse Linked List | ReverseLinkedList.js |
 | 217. Contains Duplicate | ContainsDuplicate.js |
 
 
