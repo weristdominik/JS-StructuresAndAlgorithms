@@ -28,6 +28,7 @@ https://leetcode.com/
 | 126. Single Number  | SingleNumber.js  |
 | 168. Excel Sheet Column Title  | ExcelSheetColumnTitle.js  |
 | 205. Isomorphic Strings | IsomorphicStrings.js  |
+| 228. Summary Ranges | SummaryRanges.js  |
 
 
 
@@ -405,6 +406,7 @@ const showHashMap = (nums) => {
 | ------------- | ------------- |
 | 169. Majority Element | MajorityElement.js  |
 | 217. Contains Duplicate | ContainsDuplicate.js |
+| 219. Contains Duplicate II | ContainsDuplicate_II.js |
 
 
 ---
@@ -422,6 +424,82 @@ The opposite of 'logical Operators'. Bitwise Operators are used to compare Bits 
 | 191. Number Of 1 Bits | NumberOf1Bits.js  |
 
 ---
+
+# Stacks
+Using Array like Data Structore to archive FIFO (First IN First OUT) OR LIFO (Las IN First OUT) Data delivery.
+
+### FIFO_StackOverview:
+```
+class MyQueue {
+    constructor() {
+        this.items = []
+    }
+
+    push(x) {
+        this.items.push(x);
+    }
+
+    pop() {
+        let r = this.items.shift();
+        return r;
+    }
+
+    peek() {
+        if (this.items.length === 0) return null;
+        let r = this.items[0];
+        return r;
+    }
+
+    empty() {
+        return this.items.length === 0;
+    }
+}
+```
+
+
+### LIFO StackOverview:
+```
+class Stack {
+    constructor() {
+        this.items = []
+        this.count = 0;
+    }
+
+    //Add Into Stack
+    push(x) {
+        this.items[this.count] = x;
+        this.count += 1;
+        return this.count - 1;
+    }
+
+    //Remove Top Element from Stack
+    pop() {
+        if (this.count == 0) return;
+        let r = this.items[this.count - 1];
+        count -= 1;
+        return r;
+    }
+
+    //Check Top Element in Stack
+    peek() {
+        return this.items[this.count];
+    }
+
+    //Check if Stack is Empty
+    isEmpty() {
+        return this.items == 0;
+    }
+}
+```
+
+## ./Stacks
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 225. Implement Stacks Using Queues | ImplementStacksUsingQueues.js |
+| 232. Implement Queues Using Stacks | ImplementQueuesUsingStacks.js  |
+
+--- 
+
 #### Regex:
 | Regex | Explanation      |
 | ------------- | ------------- |
@@ -435,6 +513,14 @@ function isLowerCaseOrDigit(char) {
 }
 ```
 
+---
+
+### Maths
+| Leetcode Name | Filename      | Math       |
+| ------------- | ------------- | ------------- |
+| 231. Power Of Two  | PowerOfTwo.js  | Logarithmus |
+
+---
 
 #### I don`t know how this Works:
 | Leetcode Name | Filename      |
