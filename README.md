@@ -29,7 +29,8 @@ https://leetcode.com/
 | 168. Excel Sheet Column Title  | ExcelSheetColumnTitle.js  |
 | 205. Isomorphic Strings | IsomorphicStrings.js  |
 | 228. Summary Ranges | SummaryRanges.js  |
-
+| 242. Valid Anagram | ValidAnagram.js  |
+| 258. Add Digit | AddDigit.js  |
 
 
 ---
@@ -353,6 +354,7 @@ console.log(reverseLinkedList(headA));
 | ------------- | ------------- |
 | 141. Linked List Cycle | LinkedListCycle.js  |
 | 206. Reverse Linked List | ReverseLinkedList.js |
+| 234. Palindrome Linked List | PalindromeLinkedList.js  |
 
 
 ---
