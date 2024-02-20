@@ -31,6 +31,7 @@ https://leetcode.com/
 | 228. Summary Ranges | SummaryRanges.js  |
 | 242. Valid Anagram | ValidAnagram.js  |
 | 258. Add Digit | AddDigit.js  |
+| 268. Missing Number | MissingNumber.js  |
 
 
 ---
@@ -521,6 +522,8 @@ function isLowerCaseOrDigit(char) {
 | Leetcode Name | Filename      | Math       |
 | ------------- | ------------- | ------------- |
 | 231. Power Of Two  | PowerOfTwo.js  | Logarithmus |
+| 263. Ugly Number  | IsUgly.js  | prime factorization |
+
 
 ---
 
