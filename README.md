@@ -32,6 +32,8 @@ https://leetcode.com/
 | 242. Valid Anagram | ValidAnagram.js  |
 | 258. Add Digit | AddDigit.js  |
 | 268. Missing Number | MissingNumber.js  |
+| 268. First Bad Version | FirstBadVersion.js  |
+| 283. Move Zeros | MoveZeros.js  |
 
 
 ---
@@ -425,6 +427,7 @@ The opposite of 'logical Operators'. Bitwise Operators are used to compare Bits 
 | ------------- | ------------- |
 | 190. Reverse Bits | ReverseBits.js  |
 | 191. Number Of 1 Bits | NumberOf1Bits.js  |
+| 290. Word Pattern | WordPattern.js  |
 
 ---
 
