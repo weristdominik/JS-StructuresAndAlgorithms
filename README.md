@@ -34,6 +34,10 @@ https://leetcode.com/
 | 268. Missing Number | MissingNumber.js  |
 | 268. First Bad Version | FirstBadVersion.js  |
 | 283. Move Zeros | MoveZeros.js  |
+| 283. Move Zeros | MoveZeros.js  |
+| 292. Nim Game | NimGame.js  |
+| 303. Range Sum Query - Imutable | RageSumQuery-Imutable.js  |
+| 326. Power Of Three | PowerOfThree.js  |
 
 
 ---
@@ -412,6 +416,8 @@ const showHashMap = (nums) => {
 | 169. Majority Element | MajorityElement.js  |
 | 217. Contains Duplicate | ContainsDuplicate.js |
 | 219. Contains Duplicate II | ContainsDuplicate_II.js |
+| 290. Word Pattern | WordPattern.js  |
+
 
 
 ---
@@ -427,7 +433,7 @@ The opposite of 'logical Operators'. Bitwise Operators are used to compare Bits 
 | ------------- | ------------- |
 | 190. Reverse Bits | ReverseBits.js  |
 | 191. Number Of 1 Bits | NumberOf1Bits.js  |
-| 290. Word Pattern | WordPattern.js  |
+| 338. Counting Bits | CountingBits.js  |
 
 ---
 
