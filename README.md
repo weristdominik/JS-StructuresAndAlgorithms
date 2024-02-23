@@ -38,6 +38,11 @@ https://leetcode.com/
 | 292. Nim Game | NimGame.js  |
 | 303. Range Sum Query - Imutable | RageSumQuery-Imutable.js  |
 | 326. Power Of Three | PowerOfThree.js  |
+| 342. Power Of Four | PowerOfFour.js  |
+| 344. Reverse String | ReverseString.js  |
+| 344. Reverse Vocals of A String | ReverseVocalsOfAString.js  |
+| 349. Intersection of Two Arrays | IntersectionOfTwoArrays.js  |
+| 350. Intersection of Two Arrays II | IntersectionOfTwoArrays_II.js  |
 
 
 ---
