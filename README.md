@@ -43,6 +43,8 @@ https://leetcode.com/
 | 344. Reverse Vocals of A String | ReverseVocalsOfAString.js  |
 | 349. Intersection of Two Arrays | IntersectionOfTwoArrays.js  |
 | 350. Intersection of Two Arrays II | IntersectionOfTwoArrays_II.js  |
+| 367. Valid Perfect Square | ValidPerfectSquare.js  |
+| 374. Guess Number Higher Or Lower | GuessNumber.js  |
 
 
 ---
@@ -422,6 +424,8 @@ const showHashMap = (nums) => {
 | 217. Contains Duplicate | ContainsDuplicate.js |
 | 219. Contains Duplicate II | ContainsDuplicate_II.js |
 | 290. Word Pattern | WordPattern.js  |
+| 383. Ransome Node | RansomeNote.js  |
+| 387. First Unique Character in String | FirstUniqueCharInString.js  |
 
 
 
@@ -535,8 +539,13 @@ function isLowerCaseOrDigit(char) {
 ### Maths
 | Leetcode Name | Filename      | Math       |
 | ------------- | ------------- | ------------- |
+| 67. Sqit(x) (square root)  | Sqrt.js  | Square Root |
 | 231. Power Of Two  | PowerOfTwo.js  | Logarithmus |
+| 326. Power Of Three | PowerOfThree.js | Logarithmus |
+| 342. Power Of Four | PowerOfFour.js | Logarithmus |
 | 263. Ugly Number  | IsUgly.js  | prime factorization |
+| 367. Valid Perfect Square | ValidPerfectSquare.js  | Square Root |
+
 
 
 ---
