@@ -45,6 +45,8 @@ https://leetcode.com/
 | 350. Intersection of Two Arrays II | IntersectionOfTwoArrays_II.js  |
 | 367. Valid Perfect Square | ValidPerfectSquare.js  |
 | 374. Guess Number Higher Or Lower | GuessNumber.js  |
+| 389. Find The Difference | FindTheDifference.js  |
+| 392. Is Subsquence | IsSubsequence.js  |
 
 
 ---
