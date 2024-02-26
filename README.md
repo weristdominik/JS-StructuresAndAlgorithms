@@ -47,6 +47,7 @@ https://leetcode.com/
 | 374. Guess Number Higher Or Lower | GuessNumber.js  |
 | 389. Find The Difference | FindTheDifference.js  |
 | 392. Is Subsquence | IsSubsequence.js  |
+| 405. Convert a Number to Hexadecimal | ConvertANumberToHex.js  |
 
 
 ---
