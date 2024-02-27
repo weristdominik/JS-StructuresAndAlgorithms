@@ -48,6 +48,11 @@ https://leetcode.com/
 | 389. Find The Difference | FindTheDifference.js  |
 | 392. Is Subsquence | IsSubsequence.js  |
 | 405. Convert a Number to Hexadecimal | ConvertANumberToHex.js  |
+| 409. Longest Palindrome | LongestPalindrome.js  |
+| 412. FizzBuzz | FizzBuzz.js  |
+| 414. Third Maximum of Number | ThirdMaximumOfNumber.js |
+| 415. Add Strings | AddStrings.js |
+| 434. Number of Segments in a String | NumberOfSegmentsInString.js |
 
 
 ---
@@ -530,6 +535,7 @@ class Stack {
 | /^[a-z0-9]$/  | a - z AND 0 - 9  |
 | /^[a-z]$/  | a - z |
 | /^[a-zA-Z0-9]$/  | a - z AND A - Z AND 0 -9 |
+| /([^\s]+)/g  | Array of Strings that are not Whitespace |
 
 ```
 function isLowerCaseOrDigit(char) {
