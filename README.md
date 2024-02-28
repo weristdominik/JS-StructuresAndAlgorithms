@@ -53,6 +53,10 @@ https://leetcode.com/
 | 414. Third Maximum of Number | ThirdMaximumOfNumber.js |
 | 415. Add Strings | AddStrings.js |
 | 434. Number of Segments in a String | NumberOfSegmentsInString.js |
+| 441. Arranging Coins | ArrangingCoins.js |
+| 448. Find All Numbers Disappeared in an Array | FindAllNumbersDisappearedInArray.js |
+| 445. Assign Cookies | AssignCookies.js |
+| 459. Repeated Substring Pattern | RepeatedSubstringPattern.js |
 
 
 ---
