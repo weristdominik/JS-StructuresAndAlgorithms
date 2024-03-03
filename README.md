@@ -62,6 +62,7 @@ https://leetcode.com/
 | 482. License Key Formatter | LicenseKeyFormatter.js |
 | 485. Max Consecutive Ones | MaxConsecutiveOnes.js |
 | 492. Construct the Rectangle | ConstructTheRectangle.js |
+| 504. Base 7 | Base7 .js |
 
 
 
@@ -444,7 +445,9 @@ const showHashMap = (nums) => {
 | 290. Word Pattern | WordPattern.js  |
 | 383. Ransome Node | RansomeNote.js  |
 | 387. First Unique Character in String | FirstUniqueCharInString.js  |
-
+| 496. Next Greater Element I | NextGreaterElement.js |
+| 500. Keyboard Row | KeyboardRow.js |
+| 506. Relative Ranks | RelativeRanks.js |
 
 
 ---
