@@ -63,6 +63,10 @@ https://leetcode.com/
 | 485. Max Consecutive Ones | MaxConsecutiveOnes.js |
 | 492. Construct the Rectangle | ConstructTheRectangle.js |
 | 504. Base 7 | Base7 .js |
+| 507. Perfect Number | PerfectNumber.js |
+| 520. Detect Capital| DetectCaptial.js |
+| 521. Longest Uncommon Subsequence I| LongestUncommonSubsequence.js |
+| 541. Reverse String II | ReverseString_II.js |
 
 
 
