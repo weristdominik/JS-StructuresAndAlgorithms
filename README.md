@@ -67,6 +67,8 @@ https://leetcode.com/
 | 520. Detect Capital| DetectCaptial.js |
 | 521. Longest Uncommon Subsequence I| LongestUncommonSubsequence.js |
 | 541. Reverse String II | ReverseString_II.js |
+| 541. Student Attendance Record I | StudentAttendanceRecord.js |
+| 557. Reverse Words in a String III | ReverseWordsInAString_III.js |
 
 
 
@@ -244,6 +246,33 @@ root.right = new TreeNode(3);
 console.log(diameterOfBinaryTree(root));
 ```
 
+### Depth of N-ary Binary Tree:
+```
+/**
+ * // Definition for a Node.
+ * function Node(val,children) {
+ *    this.val = val;
+ *    this.children = children;
+ * };
+ */
+
+/**
+ * @param {Node|null} root
+ * @return {number}
+ */
+var maxDepth = function(root) {
+    if(root == null) return 0
+
+    let max = 0
+    for(let node of root.children) {
+        max = Math.max(max, maxDepth(node))
+    }
+
+    return max + 1
+};
+```
+
+
 ## ./BinaryTree
 | Leetcode Name | Filename      |
 | ------------- | ------------- |
@@ -261,6 +290,7 @@ console.log(diameterOfBinaryTree(root));
 | 226. Invert Binary Tree | InvertBinaryTree.js |
 | 257. Binary Tree Paths | BinaryTreePaths.js |
 | 404. Sum of Left Leaves | SumOfLeftLeaves.js |
+| 559. Maximum Depth of N-ary Tree | MaximumDepthOfN-aryTree.js |
 
 
 ---
