@@ -69,6 +69,12 @@ https://leetcode.com/
 | 541. Reverse String II | ReverseString_II.js |
 | 541. Student Attendance Record I | StudentAttendanceRecord.js |
 | 557. Reverse Words in a String III | ReverseWordsInAString_III.js |
+| 561. Array Partition | ArrayPartition.js |
+| 2367. Number of Arithmetic Triplets | NumberOfArithmeticTriplets.js |
+| 2006. Count Number of pairs With Absolute Difference K | NumberOfPairsWithDifference.js |
+| 709. To Lower Case | ToLowerCase.js |
+| 598. Range Addition II | RangeAddition_II.js |
+| 605. Can Place Flowers | CanPlaceFlowers.js |
 
 
 
@@ -89,10 +95,6 @@ class Node {
 }
 
  
-
-// Root of Binary Tree
-var root = null;
-
 function printInorder(node) {
 
     if (node == null) {
@@ -130,8 +132,35 @@ function printPostorder(node) {
     console.log(node.key + " ");
 }
 
- 
+function printLevelOrderTraversal(node) {
+    if(!node) return
 
+     let result = []
+ 
+    //new recursive function:
+    var lot = (node, i) => {
+        if(!node) return //if node is emtpy
+ 
+        if(result[i]) {
+            result[i].push(node.val)
+        } else {
+            result[i] = [node.val]
+        }
+ 
+        lot(node.left, i+1)
+        lot(node.right, i+1)
+    }
+ 
+    //Call recursive function
+    lot(root, 0)
+ 
+    //Display Output
+    console.log(result)
+}
+}
+
+ 
+let root = null;
 root = new Node(1);
 root.left = new Node(2);
 root.right = new Node(3);
@@ -148,6 +177,8 @@ console.log("------------------------------------");
 console.log(printPreorder(root)); //Printing PreOrder Traversal
 console.log("------------------------------------");
 console.log(printPostorder(root)); //Printing PostOrder Traversal
+console.log("------------------------------------");
+console.log(printLevelOrderTraversal(root)); //Printing LevelOrder Traversal
 
 ```
 
@@ -291,6 +322,12 @@ var maxDepth = function(root) {
 | 257. Binary Tree Paths | BinaryTreePaths.js |
 | 404. Sum of Left Leaves | SumOfLeftLeaves.js |
 | 559. Maximum Depth of N-ary Tree | MaximumDepthOfN-aryTree.js |
+| 563. Binary Tree Tilt | BinaryTreeTilt.js |
+| 2. Add Two Numbers | AddTwoNumbers.js |
+| 23. Merge k Sorted Lists | MergeSortedLists.js |
+| 21. Merge Two Sorted Lists | MergeTwoSortedLists.js |
+| 643. Maximum Average Subarray I | MaximumAverageSubarray_I.js |
+| 645. Set Mismatch | SetMismatch.js |
 
 
 ---
@@ -335,6 +372,13 @@ console.log(generate(numRows));
 | ------------- | ------------- |
 | 118. Pascal`s Triangle  | PascalsTriangle.js  |
 | 119. Pascal`s Triangle II | PascalsTriangle_II.js  |
+
+---
+
+# Matrix:
+| Leetcode Name | Filename      |
+| ------------- | ------------- |
+| 556. Reshape the Matrix  | ReshapeTheMatrix.js  |
 
 ---
 # Linked Lists:
@@ -482,6 +526,10 @@ const showHashMap = (nums) => {
 | 496. Next Greater Element I | NextGreaterElement.js |
 | 500. Keyboard Row | KeyboardRow.js |
 | 506. Relative Ranks | RelativeRanks.js |
+| 506. Distribute Candies | DistributeCandies.js |
+| 771. Jewels and Stones | JewelsAndStones.js |
+| 2325. Decode the Message | DecodeTheMessage.js |
+| 594. Longest Harmonious Subsequence | LongestHarmoniousSubsequence.js |
 
 
 ---
