@@ -328,6 +328,8 @@ var maxDepth = function(root) {
 | 21. Merge Two Sorted Lists | MergeTwoSortedLists.js |
 | 643. Maximum Average Subarray I | MaximumAverageSubarray_I.js |
 | 645. Set Mismatch | SetMismatch.js |
+| 1221. Split a String in Balanced Strings | SplitIntoBalancedStrings.js |
+| 1309. Decrypt String from Alphabet to Integer Mapping | DecryptStringFromAlphabetIntegerMapping.js |
 
 
 ---
