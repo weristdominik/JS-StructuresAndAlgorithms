@@ -75,6 +75,9 @@ https://leetcode.com/
 | 709. To Lower Case | ToLowerCase.js |
 | 598. Range Addition II | RangeAddition_II.js |
 | 605. Can Place Flowers | CanPlaceFlowers.js |
+| 2937. Make Three Strings Equal | MakeThreeStringsEqual.js |
+| 657. Robot Return to Origin | RobotReturnToOrigin.js |
+| 661. Image Smoother | ImageSmoother.js |
 
 
 
@@ -330,6 +333,9 @@ var maxDepth = function(root) {
 | 645. Set Mismatch | SetMismatch.js |
 | 1221. Split a String in Balanced Strings | SplitIntoBalancedStrings.js |
 | 1309. Decrypt String from Alphabet to Integer Mapping | DecryptStringFromAlphabetIntegerMapping.js |
+| 2942. Find Words Containing Character | FindWordsContainingCharacter.js |
+| 653. Two Sum IV - Input is a BST | BinaryTee-TwoSum.js |
+| 1557. Minimum Number of Vertices to Reach All Nodes | MinimalNumberVerticesToReachAllNodes.js |
 
 
 ---
