@@ -25,3 +25,4 @@ git clone https://github.com/weristdominik/JS-StructuresAndAlgorithms.git
 | Addition using Bitwise Operations |  Getting a Sum using Bitwise Operations (AND, XOR)  | [BinaryOperationSums.js](https://github.com/weristdominik/JS-StructuresAndAlgorithms/blob/main/Popular-Algorithms/BinaryOperationSums.js) | O(log(max(a, b))) |
 | Find Missing Value Bitwise | Find Missing Value in Array  | [BinaryMissingNumber.js](https://github.com/weristdominik/JS-StructuresAndAlgorithms/blob/main/Popular-Algorithms/BinaryMissingNumber.js) | O(n) |
 | Bitwise Reverse Bit | Reverse Bits in BinaryString  | [BinaryReverseBits.js](https://github.com/weristdominik/JS-StructuresAndAlgorithms/blob/main/Popular-Algorithms/BinaryReverseBits.js) | O(n) |
+| Permutation | Array containing all possible permutations  | [Permutation.js](https://github.com/weristdominik/JS-StructuresAndAlgorithms/blob/main/Popular-Algorithms/Permutation.js) | O(n * n!) |
