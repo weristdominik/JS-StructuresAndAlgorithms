@@ -3,8 +3,10 @@
  * @return {number}
  */
 
-
-var rob = function (nums) {
+/*##################################################
+              1. Dynamic Programming
+##################################################*/
+var rob1 = function (nums) {
     if (nums.length == 0) return 0
     if (nums.length == 1) return nums[0]
 
@@ -22,4 +24,4 @@ var rob = function (nums) {
 };
 
 const nums = [2, 7, 9, 3, 1]
-console.log(rob(nums))
+console.log(rob1(nums))
