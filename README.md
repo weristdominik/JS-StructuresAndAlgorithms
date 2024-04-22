@@ -78,6 +78,8 @@ https://leetcode.com/
 | 2937. Make Three Strings Equal | MakeThreeStringsEqual.js |
 | 657. Robot Return to Origin | RobotReturnToOrigin.js |
 | 661. Image Smoother | ImageSmoother.js |
+| 680. Valid Palindrome II | ValidPalindrome_II.js |
+| 696. Count Binary SubString | CountBinarySubString.js |
 
 
 
